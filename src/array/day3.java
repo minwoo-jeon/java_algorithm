@@ -10,9 +10,6 @@ public class day3 {
         int [] b = new int[n];
         String answer= "";
 
-        for (int i = 0; i < n; i++) {
-            a[i] = sc.nextInt();
-        }
 
         for (int i = 0; i < n; i++) {
             b[i] = sc.nextInt();
