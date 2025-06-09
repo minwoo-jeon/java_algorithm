@@ -23,8 +23,7 @@ public class day9 {
                 arr[i][j] = sc.nextInt();
             }
         }
-        //0행 합 =60
-        //0열 합 ==71
+
 
         //2차원 배열에 값을 꺼내면서 행과,열의 합을 구한다.
         for (int i = 0; i < num; i++) {
