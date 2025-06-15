@@ -1,7 +1,6 @@
-package array;
+package pointer;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class day12 {
@@ -13,7 +12,7 @@ public class day12 {
         int[] arr2 = readArray(sc,n2);
 
 
-        ArrayList<Integer> answer = new ArrayList<>(); //ㅅㅅㅅ
+        ArrayList<Integer> answer = new ArrayList<>(); //
         int p1= 0 , p2 = 0;  //각 배열에 위치할 포인터를 생성 배열시작범위 0으로 초기화
 
 
