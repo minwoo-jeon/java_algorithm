@@ -18,7 +18,7 @@ public class day14 {
         }
 
 
-        //처음에 배열에 k까지의 합을 구하고 sum 변수에 저장.
+        //처음에 배열에 k 까지의 합을 구하고 sum 변수에 저장.
         for (int i = 0; i < k; i++) {
             sum += arr[i];  //sum = 12+15+11 = 38
             answer = sum;
