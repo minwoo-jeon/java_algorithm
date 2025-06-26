@@ -18,6 +18,8 @@ public class day18 {
             map.put(x,map.getOrDefault(x,0)+1);
         }
 
+
+
         //확인 하는 코드 map에 키값을 하나씩 읽어와 set객체에 저장하고 그 저장된 set,객체에  문자열 하나씩 뽑아냄
 //        for(char x : map.keySet()){
 //            System.out.println(x + " " + map.get(x));
